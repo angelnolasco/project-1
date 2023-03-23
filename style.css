@@ -1,4 +1,4 @@
-
+/* displays the websites background */
 body {
     background: radial-gradient(circle at bottom left,transparent 25%,#4f46e4 25.5%, #4f46e4 36%, transparent 37%, transparent 100%),radial-gradient(circle at top right,transparent 34%,#4f46e4 34.5%, #4f46e4 45.5%, transparent 46%, transparent 100%);
     background-size: 3em 3em;
@@ -6,7 +6,7 @@ body {
     opacity: 1
   }
   
-
+/* puts title in the center */
   h1 {
     font-size: 2.5rem;
     text-align: center;
@@ -23,13 +23,14 @@ body {
     margin: 2rem;
   } 
    
-  
+  /* size & color for the variables  */
   p {
     font-size: 1.2rem;
     margin-top: 1rem;
     color: #fff;
   }
   
+  /* puts all 4 in the center */
    #artist-name {
     font-weight: bold;
     text-align: center;
@@ -52,18 +53,19 @@ body {
     padding: 20px;
      
 } 
+/* hides the background for artist description */
  #artist-description:empty{
     display: none;
  }
 
-
+/* the buttons to the center */
   form {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 2rem;
   }
-  
+  /* style for search artist button */
   input[type="text"] {
     padding: 0.5rem;
     font-size: 1.2rem;
@@ -71,7 +73,7 @@ body {
     border: none;
     border-radius: 0.3rem;
   }
-  
+  /* style for get artist button  */
   input[type="submit"] {
     background-color: #6e0dd0;
     color: #fff;
