@@ -1,0 +1,179 @@
+
+body {
+    background: radial-gradient(circle at bottom left,transparent 25%,#4f46e4 25.5%, #4f46e4 36%, transparent 37%, transparent 100%),radial-gradient(circle at top right,transparent 34%,#4f46e4 34.5%, #4f46e4 45.5%, transparent 46%, transparent 100%);
+    background-size: 3em 3em;
+     background-color: #000000;
+    opacity: 1
+  }
+  
+
+  h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    color: #fff;
+  }
+  
+    main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+  } 
+   
+  
+  p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    color: #fff;
+  }
+  
+   #artist-name {
+    font-weight: bold;
+    text-align: center;
+    
+  }
+  
+  #artist-followers {
+    text-align: center;
+  }
+  
+  #artist-image {
+    max-width: 100%;
+    margin: 1rem 0;
+  }
+  
+  #artist-description {
+    text-align: justify;
+    margin: 1rem;
+    background-color:#4b0082; 
+    padding: 20px;
+    opacity: 0; 
+      
+  } 
+
+  form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+  }
+  
+  input[type="text"] {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    margin-right: 1rem;
+    border: none;
+    border-radius: 0.3rem;
+  }
+  
+  input[type="submit"] {
+    background-color: #6e0dd0;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #4b0082;
+  }    
+
+
+ /* body {
+    background: radial-gradient(circle at bottom left,transparent 25%,#4f46e4 25.5%, #4f46e4 36%, transparent 37%, transparent 100%),radial-gradient(circle at top right,transparent 34%,#4f46e4 34.5%, #4f46e4 45.5%, transparent 46%, transparent 100%);
+    background-size: 3em 3em;
+    background-color: #000000;
+    opacity: 1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    align-items: center;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    color: #fff;
+    grid-column: 1 / -1;
+  }
+  
+  main {
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+    align-items: center;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    color: #fff;
+  }
+  
+  #artist-name {
+    font-weight: bold;
+    text-align: center;
+    grid-column: 1 / span 2;
+  }
+  
+  #artist-followers {
+    text-align: center;
+    grid-column: 1 / span 2;
+  }
+  
+  #artist-image {
+    max-width: 100%;
+    margin: 1rem 0;
+    grid-column: 1 / span 2;
+  }
+  
+  #artist-description {
+    text-align: justify;
+    margin: 1rem;
+    background-color:#4b0082; 
+    padding: 20px;
+    /opacity: 0;  
+    grid-column: 2 / -1;
+  } 
+  
+  form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+  }
+  
+  input[type="text"] {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    margin-right: 1rem;
+    border: none;
+    border-radius: 0.3rem;
+  }
+  
+  input[type="submit"] {
+    background-color: #6e0dd0;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #4b0082;
+  } 
+   */
