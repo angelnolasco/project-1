@@ -50,9 +50,12 @@ body {
     margin: 1rem;
     background-color:#4b0082; 
     padding: 20px;
-    opacity: 0; 
-      
-  } 
+     
+} 
+ #artist-description:empty{
+    display: none;
+ }
+
 
   form {
     display: flex;
