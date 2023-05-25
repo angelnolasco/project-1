@@ -5,8 +5,8 @@
 
 Technologies Used: JavaScript, HTML, CSS
  
-Screenshot(s):<img width="512" alt="Screen Shot 2023-03-23 at 7 51 47 PM" src="https://user-images.githubusercontent.com/126417087/227389270-a7336daa-2169-44b2-be22-5ee9bce7c4c7.png">
- 
+Screenshot(s):<img width="1385" alt="Screen Shot 2023-05-24 at 8 32 49 PM" src="https://github.com/angelnolasco/project-1/assets/126417087/a890211b-a095-42bf-ac58-453256653680">
+
 Getting Started: http://127.0.0.1:5501/?
   
 Future Enhancements: later on I plan on adding songs/albums when you look up a artist
